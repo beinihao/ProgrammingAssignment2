@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+
+## A matrix that can have an inverse, it suports set and get matrix and also set and get the inverse
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
@@ -34,7 +36,7 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
-
+## below is that i got when i tested the logic
 > beini_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
 > beini_matrix$get()
      [,1] [,2]
